@@ -1,0 +1,34 @@
+Name: Viswanath Chennuru
+Email: vchennu@g.clemson.edu
+Date: 10/01/12
+
+Proj No: 1
+
+Description:
+	The framework given is used to do the project. In this project I created sprites with the animations I designed. Multiple sprites are created and stored in a vector. The initial attributes of the sprites are being retrieved from the XML file. All the sprites attributes are uptaded everytime to create a moving animation of the sprites. The background is also implemented as a sprite by default but can be disabled and filled with a background color by changing the XML file.
+
+To change the XML file and the animation:
+
+For moving sprites: 
+	1. The number of sprites can be changed by changing the count in the <orbCount> tag.
+	2. The animation in the sprite can be changed by changing the file name in the <redorbFile> tag. The attributes of the new animation should be updated in <redorbWidth> and the <redorbHeight> tags.
+
+For the background:
+	1. The default image in the background can be changed by changing value of <backgroundFile> tag and its attributes should be updated in the <backgroundWidth> and the <backgroundHeight> tags.
+	2. To remove the default image from the background change the <backgroundOn> tag's value to "true" and then the color of the background can be changed by changing the <backgroundRed>, <backgroundGreen> and <backgroundBlue> tags.
+
+The Specs that I implemented are:
+
+	1. Own sprites are incorporated.
+	2. Multiple sprites are created.
+	3. Data access from XML file is done.
+
+The Specs that I was unable to implement are:
+
+	All the mentioned specs are implemented.
+
+Extras:
+
+Used the following tools:
+	1. Inkscape and GIMP
+	2. Valgrind

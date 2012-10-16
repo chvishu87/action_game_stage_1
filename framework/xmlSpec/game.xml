@@ -1,0 +1,49 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>1686</viewWidth>
+  <viewHeight>400</viewHeight>
+</view>
+
+<screen>
+  <worldWidth>1686</worldWidth>
+  <worldHeight>400</worldHeight>
+</screen>
+
+<Font name="font">
+  <font>font/pirulen.ttf</font>
+  <fontSize>14</fontSize>
+</Font>
+<maxStringSize>50</maxStringSize>
+
+<background>
+  <backgroundFile>images/drawing1.bmp</backgroundFile>
+  <backgroundWidth>1686</backgroundWidth>
+  <backgroundHeight>400</backgroundHeight>
+  <backgroundMaxSpeed backMaxXspeed="0" backMaxYspeed="0"/>
+  <backgroundRed>255</backgroundRed>
+  <backgroundGreen>255</backgroundGreen>
+  <backgroundBlue>255</backgroundBlue>
+  <backgroundOn>false</backgroundOn>
+  <backgroundSrcX>0</backgroundSrcX>
+  <backgroundSrcY>0</backgroundSrcY>
+  <backgroundSpeed backgroundXspeed="0" backgroundYspeed="0" />
+</background>
+
+<orbCount>11</orbCount>
+
+<redorb>
+  <redorbFile>images/space.bmp</redorbFile>
+  <redorbSrcX>0</redorbSrcX>
+  <redorbSrcY>0</redorbSrcY>
+  <redorbWidth>54</redorbWidth>
+  <redorbHeight>27</redorbHeight>
+  <redorbLoc redorbX="10" redorbY="10"/>
+  <redorbSpeed redorbXspeed="250" redorbYspeed="50"/>
+  <redorbMaxSpeed redorbMaxXspeed="350" redorbMaxYspeed="300"/>
+  <redorbTransparency>true</redorbTransparency>
+</redorb>
+
+</GameData>
